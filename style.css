@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Lato&family=Lobster&family=Montserrat:wght@400;700&family=Rubik+Vinyl&family=Sorts+Mill+Goudy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: "Lato", sans-serif;
+  /* display: flex; */
+  font-weight: 400;
+  line-height: 1.8rem;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.arkaresim-kapsayici-resim1,
+.arkaresim-kapasayici-resim2,
+.arkaresim-kapsayici-resim3,
+.arkaresim-kapasayici-resim4 {
+  background-image: url(images/bg.jpg);
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.baslik-icerik_baslik-buyuk {
+  background-color: black;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline-offset: 1rem;
+  text-transform: uppercase;
+  line-height: 5rem;
+  padding: 2rem;
+  outline: purple inset 0.5rem;
+}
+
+.baslik-icerik_baslik-kucuk{
+    background-color: black;
+    border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    outline-offset: 0.2rem;
+    text-transform: capitalize;
+    line-height: 5rem;
+    padding: 0.7rem;
+    outline: purple inset 0.5rem;
+
+}
+
+
+.baslik-kapsayici {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+.section-light {
+  background-color: rgb(241, 241, 241);
+  color: rgb(102, 102, 102);
+}
+.section-dark {
+  background-color: rgb(40, 46, 52);
+  color: rgb(221, 211, 221);
+}
+
+.section {
+  text-align: center;
+  padding: 3rem 5rem;
+}
+
+section {
+  display: block;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5rem;
+  margin-block-start: 0.83rem;
+  margin-block-end: 0.83rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.arkaresim-kapasayici-resim2 {
+  background-image: url(images/bg2.jpg);
+  min-height: 80%;
+}
+.arkaresim-kapsayici-resim3 {
+    background-image: url(images/bg3.jpg);
+    min-height: 80%;
+  }
+.arkaresim-kapasayici-resim4 {
+    background-image: url(images/bg4.jpg);
+    min-height: 80%;
+  }
+
+.baslik-icerik_baslik-logo {
+  width: 30%;
+  margin: 1rem;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
